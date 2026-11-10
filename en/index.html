@@ -200,6 +200,13 @@ h1{font-size:2.3rem;color:var(--text-dark);line-height:1.2;margin-bottom:.75rem}
 .badges{display:flex;flex-wrap:wrap;gap:.5rem}
 .badge{background:#fff;border:1px solid var(--rule);padding:.3rem .75rem;border-radius:6px;font-size:.82rem;font-weight:500;color:var(--secondary)}
 .skill-tag{display:inline-block;background:var(--primary);color:#fff;padding:.4rem .8rem;border-radius:6px;font-size:.8rem;font-family:monospace;font-weight:700;margin:0 .4rem .4rem 0}
+.methods .mg{margin-bottom:1rem}
+.methods dt{font-size:.74rem;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);font-weight:700;margin-bottom:.25rem}
+.methods dd{font-size:.93rem;line-height:1.6}
+details.more{margin-top:.2rem}
+details.more summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:.88rem;padding:.9rem 0;list-style-position:inside}
+details.more summary::marker{color:var(--accent)}
+details.more[open] summary{border-bottom:1px solid var(--border)}
 .course{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;padding:1.1rem 0;border-bottom:1px solid var(--border)}
 .course-t{font-weight:700;color:var(--text-dark);font-size:1rem}
 .course-d{font-size:.86rem;color:var(--text-muted)}
@@ -282,17 +289,17 @@ footer h2{font-size:1.5rem;margin-bottom:1.5rem;font-weight:600}
 
     <div class="sub-title"><h3>Featured projects</h3></div>
     <div class="projects">
-      <article class="project"><h4>Bidding strategy and energy auctions</h4><p>I took part in the price and scenario analysis used to define bidding strategies for public calls and sale auctions that awarded more than 1,000 GWh/yr.</p></article>
-      <article class="project"><h4>Commercial structuring and PPA contracts</h4><p>I contributed to the analysis, structuring, and negotiation of more than 10 PPAs, associated with approximately 380 MW of capacity.</p></article>
+      <article class="project"><h4>Bidding strategy and energy auctions</h4><p>I took part in the price and scenario analysis used to define bidding strategies in internal sale auctions and in a Ministry of Mines and Energy call, which awarded more than 1,000 GWh/yr.</p></article>
+      <article class="project"><h4>Commercial structuring and PPA contracts</h4><p>I led the commercial analysis, structuring, and negotiation of more than 10 PPAs, associated with approximately 380 MW of capacity.</p></article>
       <article class="project"><h4>Settlement process automation</h4><p>I automated the monthly settlement report with an Excel tool, cutting execution time by about 70%.</p></article>
     </div>
 
     <div class="sub-title"><h3>Career path</h3></div>
     <ol class="timeline">
-      <li class="tl-item current"><div class="tl-year">2026 – present</div><div class="tl-body"><h4>Consulting and teaching</h4><div class="tl-org">Universidad EAFIT</div><p class="tl-desc">Applied research projects on problems faced by companies and institutions, and teaching for graduate students.</p></div></li>
+      <li class="tl-item current"><div class="tl-year">2026 – present</div><div class="tl-body"><h4>Consulting and teaching</h4><div class="tl-org">Universidad EAFIT</div><p class="tl-desc">Applied research projects on problems faced by companies and institutions, and undergraduate and graduate teaching.</p></div></li>
       <li class="tl-item"><div class="tl-year">2023 – 2026</div><div class="tl-body"><h4>Wholesale energy market</h4><div class="tl-org">Empresas Públicas de Medellín (EPM)</div><p class="tl-desc">Quantitative models and scenario analysis for pricing, commercial risk, and commercial evaluation of investment opportunities.</p></div></li>
       <li class="tl-item"><div class="tl-year">2022 – 2023</div><div class="tl-body"><h4>Visiting Research Fellow</h4><div class="tl-org">Duke University · Nicholas School of the Environment</div><p class="tl-desc">I deepened my analysis of the effects of renewable energy integration on electricity markets.</p></div></li>
-      <li class="tl-item"><div class="tl-year">2018 – 2022</div><div class="tl-body"><h4>Researcher in policy, regulation, and electricity markets</h4><div class="tl-org">Energética 2030 · U. EAFIT / U. Nacional de Colombia</div><p class="tl-desc">I developed electricity-market models and simulations and compared the regulatory designs of PJM and CAISO.</p></div></li>
+      <li class="tl-item"><div class="tl-year">2018 – 2022</div><div class="tl-body"><h4>Research Assistant in policy, regulation, and electricity markets</h4><div class="tl-org">Energética 2030 · U. EAFIT / U. Nacional de Colombia</div><p class="tl-desc">I developed electricity-market models and simulations and compared the regulatory designs of PJM and CAISO.</p></div></li>
       <li class="tl-item"><div class="tl-year">2016 – 2018</div><div class="tl-body"><h4>Consultant, economic analysis and public policy</h4><div class="tl-org">Fedesarrollo · Universidad EAFIT</div><p class="tl-desc">Evaluation of agricultural trade policy with CGE models and analysis of the productive profile of Envigado.</p></div></li>
       <li class="tl-item"><div class="tl-year">2012 – 2015</div><div class="tl-body"><h4>Adjunct Lecturer</h4><div class="tl-org">Universidad de Antioquia</div><p class="tl-desc">Calculus, biostatistics, design of experiments, and mathematics.</p></div></li>
     </ol>
@@ -387,6 +394,16 @@ footer h2{font-size:1.5rem;margin-bottom:1.5rem;font-weight:600}
         </div>
       </li>
     </ul>
+    <details class="more">
+      <summary>More presentations and conferences (5)</summary>
+      <ul class="pubs">
+        <li class="pub"><div class="pub-year">2022</div><div class="pub-body"><div class="pub-venue">Presentation · 24th Applied Economics Meeting, Asociación Libre de Economía (ALdE), Palma de Mallorca, Spain</div><div class="pub-title" style="font-weight:600">"Energías renovables no convencionales y efecto orden de mérito en el mercado eléctrico mayorista en Colombia." <span class="tr" style="font-weight:500;color:var(--text-muted)">[Non-conventional renewable energies and the merit-order effect in the Colombian wholesale electricity market.]</span></div></div></li>
+        <li class="pub"><div class="pub-year">2021</div><div class="pub-body"><div class="pub-venue">Seminar · Seminario Permanente de Economía, Universidad de Antioquia, Medellín</div><div class="pub-title" style="font-weight:600">"Strategic Behaviors and Transfer of Wholesale Costs to Retail Prices in the Electricity Market: Evidence from Colombia."</div></div></li>
+        <li class="pub"><div class="pub-year">2018</div><div class="pub-body"><div class="pub-venue">Conference paper · 21st Annual Conference on Global Economic Analysis (GTAP), Cartagena</div><div class="pub-title" style="font-weight:600">"The cost of tariff and non-tariff protection in Colombia: A computable general equilibrium exercise."</div><div class="pub-authors">Botero García, J. A., <strong>Correa-Giraldo, M.</strong>, &amp; García, J.</div><a class="lnk" href="https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=5580" target="_blank" rel="noopener">View publication &rarr;</a></div></li>
+        <li class="pub"><div class="pub-year">2018</div><div class="pub-body"><div class="pub-venue">Presentation · 21st Annual Conference on Global Economic Analysis (GTAP), Cartagena</div><div class="pub-title" style="font-weight:600">"Fiscal Policy and Inequality in a CGE Model for Colombia."</div></div></li>
+        <li class="pub"><div class="pub-year">2016</div><div class="pub-body"><div class="pub-venue">Presentation · Caribbean Economic Association, Medellín</div><div class="pub-title" style="font-weight:600">"Focused Econometric Estimation: The interplay between the Bayesian and frequentist approaches."</div></div></li>
+      </ul>
+    </details>
     <p class="more-line">Full list on <a href="https://scholar.google.com/citations?hl=en&amp;user=l2cqT4sAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
 
     <div class="sub-title" style="margin-top:4.5rem"><h3>Teaching & Tools</h3></div>
@@ -397,9 +414,13 @@ footer h2{font-size:1.5rem;margin-bottom:1.5rem;font-weight:600}
         <div class="badges"><span class="badge">Advanced Econometrics</span><span class="badge">Time Series</span><span class="badge">Data Analysis</span><span class="badge">Design of Experiments</span><span class="badge">Biostatistics</span><span class="badge">Advanced Mathematics (graduate)</span><span class="badge">Mathematics Boot Camp (graduate)</span></div>
       </div>
       <div>
-        <h4>Software</h4>
-        <p>Environments for estimation, simulation, and data analysis.</p>
-        <div><span class="skill-tag">R</span><span class="skill-tag">Python</span><span class="skill-tag">Stata</span><span class="skill-tag">MATLAB</span><span class="skill-tag">GAMS (CGE)</span></div>
+        <h4>Methods & software</h4>
+        <dl class="methods">
+          <div class="mg"><dt>Econometrics and forecasting</dt><dd>Econometric analysis · Time-series analysis and forecasting · Scenario and sensitivity analysis</dd></div>
+          <div class="mg"><dt>Modeling and simulation</dt><dd>Quantitative economic modeling · Electricity-market simulation · Computable general equilibrium (CGE)</dd></div>
+          <div class="mg"><dt>Markets and competition</dt><dd>Market design and competition analysis</dd></div>
+          <div class="mg"><dt>Software</dt><dd><span class="skill-tag">R</span><span class="skill-tag">Python</span><span class="skill-tag">Stata</span><span class="skill-tag">MATLAB</span><span class="skill-tag">GAMS (CGE)</span></dd></div>
+        </dl>
       </div>
     </div>
 
